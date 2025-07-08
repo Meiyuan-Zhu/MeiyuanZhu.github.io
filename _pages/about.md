@@ -72,7 +72,6 @@ Github: [https://github.com/bbyuan/Tomato-BookStore-Frontend](https://github.com
 
 - **Outstanding Student Leader， 2023， 2024**   
 
-
 ---
 
 <div id="acknowledgement"></div>
