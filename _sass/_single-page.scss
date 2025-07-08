@@ -1,0 +1,76 @@
+/* Single Page Navigation Enhancements */
+
+/* Smooth scrolling for the entire document */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset for fixed header when jumping to anchors */
+div[id] {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+/* Highlight active navigation item (optional enhancement) */
+.masthead__menu-item a[href^="#"] {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.masthead__menu-item a[href^="#"]:hover {
+  color: var(--global-link-color-hover);
+}
+
+/* Section styling improvements */
+.page__content h2 {
+  border-bottom: 2px solid var(--global-border-color);
+  padding-bottom: 10px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.page__content hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid var(--global-border-color);
+  opacity: 0.6;
+}
+
+/* Improve spacing for the first section */
+.page__content div[id="home"] + h1,
+.page__content div[id="home"] + p {
+  margin-top: 0;
+}
+
+/* Contact section styling */
+div[id="contact"] + h2 + p {
+  margin-bottom: 20px;
+}
+
+/* Make email and GitHub links more prominent in contact section */
+div[id="contact"] ~ p a {
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: var(--global-bg-color-light);
+  border: 1px solid var(--global-border-color);
+  transition: all 0.3s ease;
+}
+
+div[id="contact"] ~ p a:hover {
+  background-color: var(--global-link-color);
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  div[id] {
+    padding-top: 80px;
+    margin-top: -80px;
+  }
+  
+  .page__content h2 {
+    margin-top: 40px;
+  }
+}

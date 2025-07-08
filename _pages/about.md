@@ -1,56 +1,175 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<div id="about"></div>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+# Welcome to Meiyuan Zhu's Academic Website 🎉
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Hello! I’m a 2nd year Software Engineering undergrad at Nanjing University. My research interests lie in Visual–Language Agents, Embodied AI and Multimodal LLMs. My goal is to build AI agents that can seamlessly understand, reason, and act across both physical and digital environments.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Currently I’m a student Research Assistant at [XLANG Lab](https://xlang.ai/) (as part of the [HKU NLP Group](https://hkunlp.github.io/)) with [Prof. Tao Yu](https://taoyds.github.io/). Before that, I had the honor of collaborating with [Prof. Hongyu Kuang](https://software.nju.edu.cn/khy/index.html) at Nanjing University on large-scale language understanding and generation research.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+---
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<div id="education"></div>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Education
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/NJU-logo.jpeg" alt="Nanjing University Logo" style="width: 80px; height: 80px; margin-right: 20px; flex-shrink: 0;">
+  <div>
+    <h3 style="margin: 0 0 5px 0; font-size: 1.4em;">Nanjing University</h3>
+    <p style="margin: 0 0 5px 0; color: #666; font-size: 1em;">2023.09 - 2027.07 (Expected)</p>
+    <p style="margin: 0 0 5px 0; font-weight: bold; font-size: 1.1em;">B.E. in Software Engineering</p>
+    <p style="margin: 0; color: #666;">GPA: 92.6/100  (4.63/5.00)</p>
+  </div>
+</div>
 
-**Markdown generator**
+<div id="publications"></div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## Publications
+<p><em>Publications will be added as I progress in my academic journey. 💪</em></p>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+---
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<div id="projects"></div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Projects
+
+### LLM-Enhanced Prompt Design for Sentiment Analysis on SE Texts
+GitHub: [https://github.com/Meiyuan-Zhu/SA4SE-NJU2025](https://github.com/Meiyuan-Zhu/SA4SE-NJU2025)
+
+In this paper, we propose a paper-insight-enhanced prompting approach that utilizes the insights digested from SA4SE-related papers to guide ChatGPT toward better performance in this task.
+
+### Forexseek Website
+Github: [https://github.com/Meiyuan-Zhu/2025-HuaQiFrontend](https://github.com/Meiyuan-Zhu/2025-HuaQiFrontend)
+
+[View website](http://118.178.184.189/#/homepage)
+
+### "Tomato" Bookstore Website
+Github: [https://github.com/bbyuan/Tomato-BookStore-Frontend](https://github.com/bbyuan/Tomato-BookStore-Frontend)
+
+---
+
+<div id="awards"></div>
+
+## Selected Awards
+
+- **National Grand Prize, Citi Cup Financial Innovation Competition, 2025**   
+<em>Top 1 team nationwide, $10,000<em>
+
+- **Nantional Scholarship, 2024**   
+<em>Top 0.2% nationwide, the highest honor for undergraduates in China, ¥10,000 <em>
+
+- **First Prize, EL Programming Design Competition, Nanjing University**   
+<em>Top 2 teams in NJU, ¥3,000 <em>
+
+- **Outstanding Student Leader， 2023， 2024**   
+
+
+---
+
+<div id="acknowledgement"></div>
+
+## Acknowledgement
+
+This website uses the website design and template by [academicpages](https://github.com/academicpages/academicpages.github.io)
+
+---
+
+<style>
+/* Remove top margin from main content */
+#main {
+  margin-top: 0.5em !important;
+}
+
+/* Remove top margin from first heading */
+h1:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add some spacing for anchor targets to account for fixed header */
+div[id] {
+  padding-top: 90px;
+  margin-top: -90px;
+}
+
+/* Override the about div to have no top spacing */
+div[id="about"] {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Section styling */
+h2 {
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 10px;
+  margin-top: 60px;
+}
+
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #e1e1e1;
+}
+
+/* Contact section improvements */
+#contact + h2 + p {
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  div[id] {
+    padding-top: 70px;
+    margin-top: -70px;
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+}
+</style>
+
+<script>
+// Smooth scrolling for navigation links
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all navigation links that start with #
+  const navLinks = document.querySelectorAll('a[href^="#"]');
+  
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        // Get the masthead height for proper offset calculation
+        const masthead = document.querySelector('.masthead');
+        const mastheadHeight = masthead ? masthead.offsetHeight : 70;
+        // Add a small buffer to ensure the title is clearly at the top
+        const offset = mastheadHeight + 20;
+        
+        const targetPosition = targetElement.offsetTop - offset;
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+</script>
